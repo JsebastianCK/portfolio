@@ -9,8 +9,8 @@ class Header extends Component {
         <Navbar.Toggle className='toggler-right' aria-controls="basic-navbar-nav" />
         <Navbar.Collapse bg="primary"id="basic-navbar-nav">
           <Nav className='ml-auto'>
-            <Nav.Link href="#">About</Nav.Link>
-            <Nav.Link href="#">Projects</Nav.Link>
+            <Nav.Link className="page-scroll" href="#about">About</Nav.Link>
+            <Nav.Link className="page-scroll" href="#projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

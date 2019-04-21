@@ -26,7 +26,7 @@ class Skills extends Component {
                 {
                     id: 2,
                     titulo: 'Mobile Development',
-                    descripcion: 'https://i.imgur.com/8vvQvtH.png',
+                    descripcion: 'You can trust me any iPhone/Android app development task and I will solve it in the best possible way.',
                     herramientas: ['JAVA' , 'REACT-NATIVE'],
                     icono: 'fas fa-mobile-alt'
                 },

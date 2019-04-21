@@ -5,9 +5,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Skills extends Component {
 
     renderTools(){
+        let i = 0;
         return this.props.habilidad.herramientas.map((herramienta) => {
+            i++;
             return (
-                <span className="badge badge-primary" style={{marginRight: '2px'}}>{herramienta}</span>
+                <span key={i} className="badge badge-primary" style={{marginRight: '2px'}}>{herramienta}</span>
             )
         });
     }
