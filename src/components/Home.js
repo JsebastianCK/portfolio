@@ -19,6 +19,10 @@ class Home extends Component {
               <span style={{color: 'red'}}>Mobile </span>
             </TextLoop> Developer
           </div>
+          <div className="iconos">
+            <a className="fab fa-github" href="https://github.com/JsebastianCK" target="_blank"/>
+            <a className="fab fa-linkedin" href="https://www.linkedin.com/in/jsebastianck/" target="_blank"/>
+          </div>
       </div>
     )
   }

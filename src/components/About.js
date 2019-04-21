@@ -19,7 +19,7 @@ class Skills extends Component {
                 {
                     id: 1,
                     titulo: 'Back-end Development',
-                    descripcion: 'https://i.imgur.com/W0Gx27K.png',
+                    descripcion: 'Ability to manage abstract concepts and complex logic. Knowledge of frameworks, design patterns, databases and APIs',
                     herramientas: ['NODEJS' , 'EXPRESSJS' , 'PHP'],
                     icono: 'fas fa-code-branch'
                 },
