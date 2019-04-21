@@ -1,0 +1,46 @@
+#root {
+  background-image: url('https://i.imgur.com/pTi1CRy.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  height: 100%;
+}
+/*------HOME------*/
+
+.nombre {
+  font-family: 'Poppins', sans-serif;
+  color: #FFFFFF;
+  font-size: 300%;
+}
+.texto {
+  padding-top: 250px;
+  padding-bottom: 250px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+/*------ABOUT------*/
+.about {
+  -webkit-box-shadow: 0px 0px 5px 8px rgba(0,80,115,0.20);
+  -moz-box-shadow: 0px 0px 5px 8px rgba(0,80,115,0.20);
+  box-shadow: 0px 0px 5px 8px rgba(0,80,115, 0.2);
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 300px;
+  color: #000000;
+  border-radius: 10;
+}
+
+/*------SKILL------*/
+.habilidad i{
+  color: #04C2C9;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.descripcion {
+  color: #000000;
+}
