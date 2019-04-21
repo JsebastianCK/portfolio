@@ -3,9 +3,6 @@ import { Container , Col } from 'react-bootstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     renderTools(){
         return this.props.habilidad.herramientas.map((herramienta) => {
