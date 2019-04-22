@@ -77,6 +77,19 @@ html {
   text-align: center;
   background-color: #189ad3;
   font-family: 'Poppins', sans-serif;
-  padding-bottom: 300px;
+  padding-bottom: 50px;
   color: #FFFFFF;
+}
+
+.carousel .slide {
+  background-color: #189ad3;
+  padding-bottom: 50px;
+}
+
+.slider {
+  background-color: #189ad3;
+}
+
+.project {
+  background-color: #189ad3;
 }
