@@ -13,14 +13,20 @@ class Projects extends Component {
                 {
                     id: 0,
                     nombre: 'Movie Searcher',
-                    descripcion: 'The app is able to search for movies via the TMDb API and render the results to the user',
-                    imagen: 'https://i.imgur.com/2NbgwJ0.png'
+                    descripcion: 'The app searches movies via the TMDb API, displaying the movie queried plus a brief description',
+                    imagen: 'https://i.imgur.com/2NbgwJ0.png',
+                    techs: ['REACT-NATIVE'],
+                    code: true,
+                    source: 'https://github.com/JsebastianCK/moviesearcher'
                 },
                 {
                     id: 1,
-                    nombre: 'Movie Searcher',
-                    descripcion: 'The app is able to search for movies via the TMDb API and render the results to the user',
-                    imagen: 'https://i.imgur.com/2NbgwJ0.png'
+                    nombre: 'Te Llevo',
+                    descripcion: 'Lyft like app. The idea behind Te LLevo is to provide a more technically advanced, cheaper alternative to taxi services, as well as make the ride more personal by enabling you to know who it is you will be trusting to drive you from point A to point B. Intended to be used by college students. (PRIVATE REPO)',
+                    imagen: 'https://i.imgur.com/oBXrqto.png',
+                    techs: ['JAVA' , 'FIREBASE'],
+                    code: false,
+                    source: '#'
                 },
             ]
         }

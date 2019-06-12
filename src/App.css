@@ -83,13 +83,50 @@ html {
 
 .carousel .slide {
   background-color: #189ad3;
+  margin-top: 100px;
   padding-bottom: 50px;
+  max-height: 700px;
 }
+
 
 .slider {
   background-color: #189ad3;
 }
 
+/*------PROJECT------*/
 .project {
   background-color: #189ad3;
+}
+
+.project p{
+  font-size: 20px;
+}
+
+.tech {
+  font-size: 10px !important;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.project .btn {
+  margin-left: 25px;
+}
+
+@media (max-width: 714px) {
+  .carousel .slide {
+    background-color: #189ad3;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    max-height: 400px;
+  }
+  .tech{
+    font-size: 7.5px !important;
+  }
+  .project p{
+    font-size: 7.5px;
+  }
+
+  .project h3{
+    font-size: 20px;
+  }
 }
